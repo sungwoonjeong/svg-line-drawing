@@ -1,3 +1,17 @@
 html {
   font-family: "Unica One", sans-serif;
 }
+
+.embed {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  left: 4.6%;
+  top: 20%;
+  max-width: 16rem;
+  font-size: 3.6rem;
+  line-height: 1.4;
+  color: #fff;
+}
