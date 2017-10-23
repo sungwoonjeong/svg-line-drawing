@@ -14,48 +14,60 @@ h1 {
   font-size: 3.6rem;
   line-height: 1.4;
   color: #fff;
+  animation: pop-up 2s ease-out forwards;
 }
 
 #rainbow-violet {
   stroke-dasharray: 1997.595px;
   stroke-dashoffset: 1997.595px;
-  animation: dash 5s linear;
+  animation: dash 1s linear forwards;
 }
 
 #rainbow-indigo {
   stroke-dasharray: 1888.02px;
   stroke-dashoffset: 1888.02px;
-  animation: dash-indigo 5s linear;
+  animation: dash-indigo 1s linear forwards;
 }
 
 #rainbow-blue {
   stroke-dasharray: 1776.54px;
   stroke-dashoffset: 1776.54px;
-  animation: dash-blue 5s linear;
+  animation: dash-blue 1s linear forwards;
 }
 
 #rainbow-green {
   stroke-dasharray: 1662.5475px;
   stroke-dashoffset: 1662.5475px;
-  animation: dash-green 5s linear;
+  animation: dash-green 1s linear forwards;
 }
 
 #rainbow-yellow {
   stroke-dasharray: 1545.1575px;
   stroke-dashoffset: 1545.1575px;
-  animation: dash-yellow 5s linear;
+  animation: dash-yellow 1s linear forwards;
 }
 
 #rainbow-orange {
   stroke-dasharray: 1423.185px;
   stroke-dashoffset: 1423.185px;
-  animation: dash-orange 5s linear;
+  animation: dash-orange 1s linear forwards;
 }
 
 #rainbow-red {
   stroke-dasharray: 1294.8375px;
   stroke-dashoffset: 1294.8375px;
-  animation: dash-red 5s linear;
+  animation: dash-red 1s linear forwards;
+}
+
+#narwhal-body {
+  stroke-dasharray: 2063.9775px;
+  stroke-dashoffset: 2063.9775px;
+  animation: dash-narwhal 800ms linear forwards;
+}
+
+#narwhal-eye {
+  opacity: 0;
+  animation: opacity-eye 2s ease-out forwards;
 }
 
 @keyframes dash {
@@ -150,6 +162,45 @@ h1 {
 
   to {
     stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes dash-narwhal {
+
+  from {
+    stroke-dashoffset: 2063.9775px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes opacity-eye {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes pop-up {
+
+  0% {
+    filter: opacity(0%);
+  }
+
+  50% {
+    filter: opacity(50%);
+  }
+
+  100% {
+    filter: opacity(100%);
   }
 
 }
