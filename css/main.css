@@ -15,3 +15,141 @@ h1 {
   line-height: 1.4;
   color: #fff;
 }
+
+#rainbow-violet {
+  stroke-dasharray: 1997.595px;
+  stroke-dashoffset: 1997.595px;
+  animation: dash 5s linear;
+}
+
+#rainbow-indigo {
+  stroke-dasharray: 1888.02px;
+  stroke-dashoffset: 1888.02px;
+  animation: dash-indigo 5s linear;
+}
+
+#rainbow-blue {
+  stroke-dasharray: 1776.54px;
+  stroke-dashoffset: 1776.54px;
+  animation: dash-blue 5s linear;
+}
+
+#rainbow-green {
+  stroke-dasharray: 1662.5475px;
+  stroke-dashoffset: 1662.5475px;
+  animation: dash-green 5s linear;
+}
+
+#rainbow-yellow {
+  stroke-dasharray: 1545.1575px;
+  stroke-dashoffset: 1545.1575px;
+  animation: dash-yellow 5s linear;
+}
+
+#rainbow-orange {
+  stroke-dasharray: 1423.185px;
+  stroke-dashoffset: 1423.185px;
+  animation: dash-orange 5s linear;
+}
+
+#rainbow-red {
+  stroke-dasharray: 1294.8375px;
+  stroke-dashoffset: 1294.8375px;
+  animation: dash-red 5s linear;
+}
+
+@keyframes dash {
+
+  from {
+    stroke-dashoffset: 1997.595px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes dash-indigo {
+
+  from {
+    stroke-dashoffset: 1888.02px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes dash-blue {
+
+  from {
+    stroke-dashoffset: 1776.54px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes dash-green {
+
+  from {
+    stroke-dashoffset: 1662.5475px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes dash-yellow {
+
+  from {
+    stroke-dashoffset: 1545.1575px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes dash-yellow {
+
+  from {
+    stroke-dashoffset: 1545.1575px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes dash-orange {
+
+  from {
+    stroke-dashoffset: 1423.185px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes dash-red {
+
+  from {
+    stroke-dashoffset: 1294.8375px;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
